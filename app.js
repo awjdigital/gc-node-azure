@@ -318,6 +318,13 @@ app.use(function (err, req, res, next) {
   res.send(err.message)
 })
 
+const envExists = fs.existsSync(path.join(__dirname, '/.env'))
+  if (!envExists) {
+    console.log('Env file doesnt exist')
+    fs.createReadStream(path.join(__dirname, '/lib/template.env'))
+      .pipe(fs.createWriteStream(path.join(__dirname, '/.env')))
+  }
+
 console.log('Gambling Commission - Protoytype Kit - V1.2')
 
 module.exports = app
