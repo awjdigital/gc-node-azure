@@ -2,6 +2,7 @@
 const path = require('path')
 
 // NPM dependencies
+const fs = require('fs')
 const bodyParser = require('body-parser')
 const dotenv = require('dotenv')
 const express = require('express')
