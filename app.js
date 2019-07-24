@@ -326,6 +326,7 @@ const envExists = fs.existsSync(path.join(__dirname, '/.env'))
       .pipe(fs.createWriteStream(path.join(__dirname, '/.env')))
   }
 
+
 console.log('Gambling Commission - Protoytype Kit - V1.2')
 
 module.exports = app
