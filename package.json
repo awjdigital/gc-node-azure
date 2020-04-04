@@ -9,7 +9,7 @@
     "node": "^10.0.0"
   },
   "dependencies": {
-    "acorn": "^6.0.5",
+    "acorn": "^6.4.1",
     "ansi-colors": "^3.2.3",
     "async": "^3.0.1",
     "basic-auth": "^2.0.0",
