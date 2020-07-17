@@ -37,7 +37,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.0",
     "keypather": "^3.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "marked": "^0.7.0",
     "mobile-detect": "^1.4.3",
     "mssql": "^5.1.0",
